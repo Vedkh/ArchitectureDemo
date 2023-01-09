@@ -1,0 +1,286 @@
+import 'package:flutter/material.dart';
+
+
+class ColorsLight {
+  static const MaterialColor _primary = MaterialColor(0xFF51629A, {
+      50: Color.fromRGBO(0x51, 0x62, 0x9A, .1),
+      100: Color.fromRGBO(0x51, 0x62, 0x9A, .2),
+      200: Color.fromRGBO(0x51, 0x62, 0x9A, .3),
+      300: Color.fromRGBO(0x51, 0x62, 0x9A, .4),
+      400: Color.fromRGBO(0x51, 0x62, 0x9A, .5),
+      500: Color.fromRGBO(0x51, 0x62, 0x9A, .6),
+      600: Color.fromRGBO(0x51, 0x62, 0x9A, .7),
+      700: Color.fromRGBO(0x51, 0x62, 0x9A, .8),
+      800: Color.fromRGBO(0x51, 0x62, 0x9A, .9),
+      900: Color.fromRGBO(0x51, 0x62, 0x9A, 1),
+      });
+
+  static const MaterialColor _primaryDark = MaterialColor(0xFF3A466C, {
+    50: Color.fromRGBO(0x3A, 0x46, 0x6C, .1),
+    100: Color.fromRGBO(0x3A, 0x46, 0x6C, .2),
+    200: Color.fromRGBO(0x3A, 0x46, 0x6C, .3),
+    300: Color.fromRGBO(0x3A, 0x46, 0x6C, .4),
+    400: Color.fromRGBO(0x3A, 0x46, 0x6C, .5),
+    500: Color.fromRGBO(0x3A, 0x46, 0x6C, .6),
+    600: Color.fromRGBO(0x3A, 0x46, 0x6C, .7),
+    700: Color.fromRGBO(0x3A, 0x46, 0x6C, .8),
+    800: Color.fromRGBO(0x3A, 0x46, 0x6C, .9),
+    900: Color.fromRGBO(0x3A, 0x46, 0x6C, 1),
+  });
+
+  static const MaterialColor _primaryLight = MaterialColor(0xFF7C95E7, {
+  50: Color.fromRGBO(0x7C, 0x95, 0xE7, .1),
+  100: Color.fromRGBO(0x7C, 0x95, 0xE7, .2),
+  200: Color.fromRGBO(0x7C, 0x95, 0xE7, .3),
+  300: Color.fromRGBO(0x7C, 0x95, 0xE7, .4),
+  400: Color.fromRGBO(0x7C, 0x95, 0xE7, .5),
+  500: Color.fromRGBO(0x7C, 0x95, 0xE7, .6),
+  600: Color.fromRGBO(0x7C, 0x95, 0xE7, .7),
+  700: Color.fromRGBO(0x7C, 0x95, 0xE7, .8),
+  800: Color.fromRGBO(0x7C, 0x95, 0xE7, .9),
+  900: Color.fromRGBO(0x7C, 0x95, 0xE7, 1),
+  });
+
+  static const MaterialColor _accent = MaterialColor(0xFFEDCF2B, {
+    50: Color.fromRGBO(0xED, 0xCF, 0x2B, .1),
+    100: Color.fromRGBO(0xED, 0xCF, 0x2B, .2),
+    200: Color.fromRGBO(0xED, 0xCF, 0x2B, .3),
+    300: Color.fromRGBO(0xED, 0xCF, 0x2B, .4),
+    400: Color.fromRGBO(0xED, 0xCF, 0x2B, .5),
+    500: Color.fromRGBO(0xED, 0xCF, 0x2B, .6),
+    600: Color.fromRGBO(0xED, 0xCF, 0x2B, .7),
+    700: Color.fromRGBO(0xED, 0xCF, 0x2B, .8),
+    800: Color.fromRGBO(0xED, 0xCF, 0x2B, .9),
+    900: Color.fromRGBO(0xED, 0xCF, 0x2B, 1),
+  });
+
+  static const MaterialColor _accentDark = MaterialColor(0xFF96800A, {
+    50: Color.fromRGBO(0x96, 0x80, 0x0A, .1),
+    100: Color.fromRGBO(0x96, 0x80, 0x0A, .2),
+    200: Color.fromRGBO(0x96, 0x80, 0x0A, .3),
+    300: Color.fromRGBO(0x96, 0x80, 0x0A, .4),
+    400: Color.fromRGBO(0x96, 0x80, 0x0A, .5),
+    500: Color.fromRGBO(0x96, 0x80, 0x0A, .6),
+    600: Color.fromRGBO(0x96, 0x80, 0x0A, .7),
+    700: Color.fromRGBO(0x96, 0x80, 0x0A, .8),
+    800: Color.fromRGBO(0x96, 0x80, 0x0A, .9),
+    900: Color.fromRGBO(0x96, 0x80, 0x0A, 1),
+  });
+
+  static const MaterialColor _accentLight = MaterialColor(0xFFFFE34B, {
+    50: Color.fromRGBO(0xFF, 0xE3, 0x4B, .1),
+    100: Color.fromRGBO(0xFF, 0xE3, 0x4B, .2),
+    200: Color.fromRGBO(0xFF, 0xE3, 0x4B, .3),
+    300: Color.fromRGBO(0xFF, 0xE3, 0x4B, .4),
+    400: Color.fromRGBO(0xFF, 0xE3, 0x4B, .5),
+    500: Color.fromRGBO(0xFF, 0xE3, 0x4B, .6),
+    600: Color.fromRGBO(0xFF, 0xE3, 0x4B, .7),
+    700: Color.fromRGBO(0xFF, 0xE3, 0x4B, .8),
+    800: Color.fromRGBO(0xFF, 0xE3, 0x4B, .9),
+    900: Color.fromRGBO(0xFF, 0xE3, 0x4B, 1),
+  });
+
+  static const MaterialColor _accentSecondary = MaterialColor(0xFFE84B4B, {
+    50: Color.fromRGBO(0xE8, 0x4B, 0x4B, .1),
+    100: Color.fromRGBO(0xE8, 0x4B, 0x4B, .2),
+    200: Color.fromRGBO(0xE8, 0x4B, 0x4B, .3),
+    300: Color.fromRGBO(0xE8, 0x4B, 0x4B, .4),
+    400: Color.fromRGBO(0xE8, 0x4B, 0x4B, .5),
+    500: Color.fromRGBO(0xE8, 0x4B, 0x4B, .6),
+    600: Color.fromRGBO(0xE8, 0x4B, 0x4B, .7),
+    700: Color.fromRGBO(0xE8, 0x4B, 0x4B, .8),
+    800: Color.fromRGBO(0xE8, 0x4B, 0x4B, .9),
+    900: Color.fromRGBO(0xE8, 0x4B, 0x4B, 1),
+  });
+
+  static const MaterialColor _accentThird = MaterialColor(0xFFA2BD35, {
+    50: Color.fromRGBO(0xA2, 0xBD, 0x35, .1),
+    100: Color.fromRGBO(0xA2, 0xBD, 0x35, .2),
+    200: Color.fromRGBO(0xA2, 0xBD, 0x35, .3),
+    300: Color.fromRGBO(0xA2, 0xBD, 0x35, .4),
+    400: Color.fromRGBO(0xA2, 0xBD, 0x35, .5),
+    500: Color.fromRGBO(0xA2, 0xBD, 0x35, .6),
+    600: Color.fromRGBO(0xA2, 0xBD, 0x35, .7),
+    700: Color.fromRGBO(0xA2, 0xBD, 0x35, .8),
+    800: Color.fromRGBO(0xA2, 0xBD, 0x35, .9),
+    900: Color.fromRGBO(0xA2, 0xBD, 0x35, 1),
+  });
+
+  static const MaterialColor _inactive = MaterialColor(0xFFE5E8EF, {
+    50: Color.fromRGBO(0xE5, 0xE8, 0xEF, .1),
+    100: Color.fromRGBO(0xE5, 0xE8, 0xEF, .2),
+    200: Color.fromRGBO(0xE5, 0xE8, 0xEF, .3),
+    300: Color.fromRGBO(0xE5, 0xE8, 0xEF, .4),
+    400: Color.fromRGBO(0xE5, 0xE8, 0xEF, .5),
+    500: Color.fromRGBO(0xE5, 0xE8, 0xEF, .6),
+    600: Color.fromRGBO(0xE5, 0xE8, 0xEF, .7),
+    700: Color.fromRGBO(0xE5, 0xE8, 0xEF, .8),
+    800: Color.fromRGBO(0xE5, 0xE8, 0xEF, .9),
+    900: Color.fromRGBO(0xE5, 0xE8, 0xEF, 1),
+  });
+
+  static const MaterialColor _navigationLight = MaterialColor(0xFFE4E9EF, {
+    50: Color.fromRGBO(0xE4, 0xE9, 0xEF, .1),
+    100: Color.fromRGBO(0xE4, 0xE9, 0xEF, .2),
+    200: Color.fromRGBO(0xE4, 0xE9, 0xEF, .3),
+    300: Color.fromRGBO(0xE4, 0xE9, 0xEF, .4),
+    400: Color.fromRGBO(0xE4, 0xE9, 0xEF, .5),
+    500: Color.fromRGBO(0xE4, 0xE9, 0xEF, .6),
+    600: Color.fromRGBO(0xE4, 0xE9, 0xEF, .7),
+    700: Color.fromRGBO(0xE4, 0xE9, 0xEF, .8),
+    800: Color.fromRGBO(0xE4, 0xE9, 0xEF, .9),
+    900: Color.fromRGBO(0xE4, 0xE9, 0xEF, 1),
+  });
+
+  static const MaterialColor _navigationDark = MaterialColor(0xFFD2DAE1, {
+    50: Color.fromRGBO(0xD2, 0xDA, 0xE1, .1),
+    100: Color.fromRGBO(0xD2, 0xDA, 0xE1, .2),
+    200: Color.fromRGBO(0xD2, 0xDA, 0xE1, .3),
+    300: Color.fromRGBO(0xD2, 0xDA, 0xE1, .4),
+    400: Color.fromRGBO(0xD2, 0xDA, 0xE1, .5),
+    500: Color.fromRGBO(0xD2, 0xDA, 0xE1, .6),
+    600: Color.fromRGBO(0xD2, 0xDA, 0xE1, .7),
+    700: Color.fromRGBO(0xD2, 0xDA, 0xE1, .8),
+    800: Color.fromRGBO(0xD2, 0xDA, 0xE1, .9),
+    900: Color.fromRGBO(0xD2, 0xDA, 0xE1, 1),
+  });
+
+  static const MaterialColor _neutral = MaterialColor(0xFF020E17, {
+    50: Color.fromRGBO(0x02, 0x0E, 0x17, .1),
+    100: Color.fromRGBO(0x02, 0x0E, 0x17, .2),
+    200: Color.fromRGBO(0x02, 0x0E, 0x17, .3),
+    300: Color.fromRGBO(0x02, 0x0E, 0x17, .4),
+    400: Color.fromRGBO(0x02, 0x0E, 0x17, .5),
+    500: Color.fromRGBO(0x02, 0x0E, 0x17, .6),
+    600: Color.fromRGBO(0x02, 0x0E, 0x17, .7),
+    700: Color.fromRGBO(0x02, 0x0E, 0x17, .8),
+    800: Color.fromRGBO(0x02, 0x0E, 0x17, .9),
+    900: Color.fromRGBO(0x02, 0x0E, 0x17, 1),
+  });
+
+  static const MaterialColor _neutralDark = MaterialColor(0xFF010407, {
+    50: Color.fromRGBO(0x01, 0x04, 0x07, .1),
+    100: Color.fromRGBO(0x01, 0x04, 0x07, .2),
+    200: Color.fromRGBO(0x01, 0x04, 0x07, .3),
+    300: Color.fromRGBO(0x01, 0x04, 0x07, .4),
+    400: Color.fromRGBO(0x01, 0x04, 0x07, .5),
+    500: Color.fromRGBO(0x01, 0x04, 0x07, .6),
+    600: Color.fromRGBO(0x01, 0x04, 0x07, .7),
+    700: Color.fromRGBO(0x01, 0x04, 0x07, .8),
+    800: Color.fromRGBO(0x01, 0x04, 0x07, .9),
+    900: Color.fromRGBO(0x01, 0x04, 0x07, 1),
+  });
+
+  static const MaterialColor _background = MaterialColor(0xFFFFFFFF, {
+    50: Color.fromRGBO(0xFF, 0xFF, 0xFF, .1),
+    100: Color.fromRGBO(0xFF, 0xFF, 0xFF, .2),
+    200: Color.fromRGBO(0xFF, 0xFF, 0xFF, .3),
+    300: Color.fromRGBO(0xFF, 0xFF, 0xFF, .4),
+    400: Color.fromRGBO(0xFF, 0xFF, 0xFF, .5),
+    500: Color.fromRGBO(0xFF, 0xFF, 0xFF, .6),
+    600: Color.fromRGBO(0xFF, 0xFF, 0xFF, .7),
+    700: Color.fromRGBO(0xFF, 0xFF, 0xFF, .8),
+    800: Color.fromRGBO(0xFF, 0xFF, 0xFF, .9),
+    900: Color.fromRGBO(0xFF, 0xFF, 0xFF, 1),
+  });
+
+  static const MaterialColor _neutralLight = MaterialColor(0xFFFFFFFF, {
+    50: Color.fromRGBO(0xFF, 0xFF, 0xFF, .1),
+    100: Color.fromRGBO(0xFF, 0xFF, 0xFF, .2),
+    200: Color.fromRGBO(0xFF, 0xFF, 0xFF, .3),
+    300: Color.fromRGBO(0xFF, 0xFF, 0xFF, .4),
+    400: Color.fromRGBO(0xFF, 0xFF, 0xFF, .5),
+    500: Color.fromRGBO(0xFF, 0xFF, 0xFF, .6),
+    600: Color.fromRGBO(0xFF, 0xFF, 0xFF, .7),
+    700: Color.fromRGBO(0xFF, 0xFF, 0xFF, .8),
+    800: Color.fromRGBO(0xFF, 0xFF, 0xFF, .9),
+    900: Color.fromRGBO(0xFF, 0xFF, 0xFF, 1),
+  });
+
+
+  static const MaterialColor _buttonsBackgroundInactive = MaterialColor(0xFFE5E8Ef, {
+    50: Color.fromRGBO(0xE5, 0xE8, 0xEF, .1),
+    100: Color.fromRGBO(0xE5, 0xE8, 0xEF, .2),
+    200: Color.fromRGBO(0xE5, 0xE8, 0xEF, .3),
+    300: Color.fromRGBO(0xE5, 0xE8, 0xEF, .4),
+    400: Color.fromRGBO(0xE5, 0xE8, 0xEF, .5),
+    500: Color.fromRGBO(0xE5, 0xE8, 0xEF, .6),
+    600: Color.fromRGBO(0xE5, 0xE8, 0xEF, .7),
+    700: Color.fromRGBO(0xE5, 0xE8, 0xEF, .8),
+    800: Color.fromRGBO(0xE5, 0xE8, 0xEF, .9),
+    900: Color.fromRGBO(0xE5, 0xE8, 0xEF, 1),
+  });
+
+  static const MaterialColor _success = MaterialColor(0xFF84BF13, {
+    50: Color.fromRGBO(0x84, 0xBF, 0x13, .1),
+    100: Color.fromRGBO(0x84, 0xBF, 0x13, .2),
+    200: Color.fromRGBO(0x84, 0xBF, 0x13, .3),
+    300: Color.fromRGBO(0x84, 0xBF, 0x13, .4),
+    400: Color.fromRGBO(0x84, 0xBF, 0x13, .5),
+    500: Color.fromRGBO(0x84, 0xBF, 0x13, .6),
+    600: Color.fromRGBO(0x84, 0xBF, 0x13, .7),
+    700: Color.fromRGBO(0x84, 0xBF, 0x13, .8),
+    800: Color.fromRGBO(0x84, 0xBF, 0x13, .9),
+    900: Color.fromRGBO(0x84, 0xBF, 0x13, 1),
+  });
+
+  static const MaterialColor _error = MaterialColor(0xFFE94A4A, {
+    50: Color.fromRGBO(0xE9, 0x4A, 0x4A, .1),
+    100: Color.fromRGBO(0xE9, 0x4A, 0x4A, .2),
+    200: Color.fromRGBO(0xE9, 0x4A, 0x4A, .3),
+    300: Color.fromRGBO(0xE9, 0x4A, 0x4A, .4),
+    400: Color.fromRGBO(0xE9, 0x4A, 0x4A, .5),
+    500: Color.fromRGBO(0xE9, 0x4A, 0x4A, .6),
+    600: Color.fromRGBO(0xE9, 0x4A, 0x4A, .7),
+    700: Color.fromRGBO(0xE9, 0x4A, 0x4A, .8),
+    800: Color.fromRGBO(0xE9, 0x4A, 0x4A, .9),
+    900: Color.fromRGBO(0xE9, 0x4A, 0x4A, 1),
+  });
+
+  static const MaterialColor _notGood = MaterialColor(0xFFF1C40F, {
+    50: Color.fromRGBO(0xF1, 0xC4, 0x0F, .1),
+    100: Color.fromRGBO(0xF1, 0xC4, 0x0F, .2),
+    200: Color.fromRGBO(0xF1, 0xC4, 0x0F, .3),
+    300: Color.fromRGBO(0xF1, 0xC4, 0x0F, .4),
+    400: Color.fromRGBO(0xF1, 0xC4, 0x0F, .5),
+    500: Color.fromRGBO(0xF1, 0xC4, 0x0F, .6),
+    600: Color.fromRGBO(0xF1, 0xC4, 0x0F, .7),
+    700: Color.fromRGBO(0xF1, 0xC4, 0x0F, .8),
+    800: Color.fromRGBO(0xF1, 0xC4, 0x0F, .9),
+    900: Color.fromRGBO(0xF1, 0xC4, 0x0F, 1),
+  });
+
+  static const MaterialColor _outlinedBorder = MaterialColor(0xff7B7B7F, {
+    50: Color.fromRGBO(0x7B, 0x7B, 0x7F, .1),
+    100: Color.fromRGBO(0x7B, 0x7B, 0x7F, .2),
+    200: Color.fromRGBO(0x7B, 0x7B, 0x7F, .3),
+    300: Color.fromRGBO(0x7B, 0x7B, 0x7F, .4),
+    400: Color.fromRGBO(0x7B, 0x7B, 0x7F, .5),
+    500: Color.fromRGBO(0x7B, 0x7B, 0x7F, .6),
+    600: Color.fromRGBO(0x7B, 0x7B, 0x7F, .7),
+    700: Color.fromRGBO(0x7B, 0x7B, 0x7F, .8),
+    800: Color.fromRGBO(0x7B, 0x7B, 0x7F, .9),
+    900: Color.fromRGBO(0x7B, 0x7B, 0x7F, 1),
+  });
+  
+  static MaterialColor get accent => _accent;
+  static MaterialColor get accentDark => _accentDark;
+  static MaterialColor get accentLight => _accentLight;
+  static MaterialColor get accentSecondary => _accentSecondary;
+  static MaterialColor get accentThird => _accentThird;
+  static MaterialColor get background => _background;
+  static MaterialColor get inactive => _inactive;
+  static MaterialColor get neutral => _neutral;
+  static MaterialColor get neutralDark => _neutralDark;
+  static MaterialColor get neutralLight => _neutralLight;
+  static MaterialColor get primary => _primary;
+  static MaterialColor get primaryDark => _primaryDark;
+  static MaterialColor get primaryLight => _primaryLight;
+  static MaterialColor get buttonsBackgroundInactive => _buttonsBackgroundInactive;
+  static MaterialColor get success => _success;
+  static MaterialColor get error => _error;
+  static MaterialColor get notGood => _notGood;
+  static MaterialColor get navigationLight => _navigationLight;
+  static MaterialColor get navigationDark => _navigationDark;
+  static MaterialColor get outlinedBorder => _outlinedBorder;
+}

@@ -1,0 +1,17 @@
+{
+  "global_language_code": "en_us",
+  "global_app_title": "Demo App",
+  "global_action_browse": "Browse...",
+  "global_action_edit": "Edit",
+  "global_action_ok": "OK",
+  "global_action_cancel": "Cancel",
+  "global_action_yes": "Yes",
+  "global_action_no": "No",
+  "global_action_clear": "Clear",
+  "global_action_delete": "Delete",
+  "global_status_loading": "Loading...",
+  "global_error_server_connection": "Server connection error. Please check your connection.",
+  "global_error_server_maintenance": "Server is under maintenance. Please try in some minutes",
+  "global_error_email_format": "Invalid Email format",
+  "global_error_password_format": "Password should not be less than 6 symbols"
+}
