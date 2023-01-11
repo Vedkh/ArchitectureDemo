@@ -1,14 +1,19 @@
-import 'package:archdemo/firebase_options.dart';
+import 'package:archdemo/ui/routes_config.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
 
 abstract class SplashScreenEvent{}
 abstract class SplashScreenState{}
 
-class SplashScreenLoadEvent extends SplashScreenEvent {}
+class SplashScreenLoadEvent extends SplashScreenEvent {
+  final BuildContext context;
+
+  SplashScreenLoadEvent({required this.context});
+}
+
 class SplashScreenInitialState extends SplashScreenState {}
 
 class SplashScreenBloc extends Bloc<SplashScreenEvent, SplashScreenState>{
@@ -22,14 +27,20 @@ class SplashScreenBloc extends Bloc<SplashScreenEvent, SplashScreenState>{
   }
 
   Future<SplashScreenState> _loadData(SplashScreenLoadEvent event) async {
-    await Firebase.initializeApp(
+    /*await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
-    await FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);
+    await FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);*/
+
 
     // TODO: load user settings, add loading logic and redirect to the next screen
+
+    Future.delayed(const Duration(seconds: 5)).then((value) => _openTestPage(event.context));
 
     return state;
   }
 
+  void _openTestPage(BuildContext context){
+    context.push(RoutesConfig.pathTest);
+  }
 }

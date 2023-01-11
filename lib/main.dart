@@ -1,13 +1,11 @@
 import 'package:archdemo/data/repositories/factories/user_settings/user_settings_repository_factory.dart';
 import 'package:archdemo/ui/constants/string_keys.dart';
-import 'package:archdemo/ui/pages/splash/splash_screen.dart';
-import 'package:archdemo/ui/pages/splash/splash_screen_bloc.dart';
+import 'package:archdemo/ui/routes_config.dart';
 import 'package:archdemo/ui/tools/app_localizations.dart';
 import 'package:archdemo/ui/tools/build_context_settings_extension.dart';
 import 'package:archdemo/ui/tools/theme_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 
@@ -29,12 +27,9 @@ class DemoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     _loadSettings(context);
-    return MaterialApp( // Theming will be provided almost manually, by widgets. Only if necessary, add additional theming, minimal
+    return MaterialApp.router(
+      routerConfig: RoutesConfig.getRoutes(),
       onGenerateTitle: (BuildContext context) => AppLocalizations.of(context)!.translate(StringKeys.globalAppTitle),
-      home: BlocProvider<SplashScreenBloc>(
-        create: (context) => SplashScreenBloc(state: SplashScreenInitialState()),
-        child: const SplashScreen(),
-      ),
       supportedLocales: const [
         Locale('en')
       ],

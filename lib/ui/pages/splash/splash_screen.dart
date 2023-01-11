@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
       buildWhen: (previous, current) => true, // TODO: add widget rebuild condition logic, if necessary
       builder: (context, state) {
         if(state is SplashScreenInitialState){
-          _bloc.add(SplashScreenLoadEvent());
+          _bloc.add(SplashScreenLoadEvent(context: context));
         }
         return Scaffold(
           body: Container(
